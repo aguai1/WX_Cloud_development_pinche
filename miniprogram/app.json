@@ -21,6 +21,11 @@
     "pages/AboutUs/AboutUs",
     "pages/LookTransit/LookTransit"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
   "window": {
     "backgroundColor": "#0091ff",
     "navigationBarBackgroundColor": "#F6F6F6",
@@ -32,7 +37,6 @@
   "tabBar": {
     "color": "#333333",
     "selectedColor": "#0091ff",
-    "borderStyle": "#9B9B9B",
     "backgroundColor": "#ffffff",
     "list": [
       {
